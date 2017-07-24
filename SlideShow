@@ -4,6 +4,6 @@ git pull
 
 sleep 5
 
-feh -Y -x -q -D 7 -B black -F -Z -z -r /home/pi/Desktop/CMCSlideShow/
+feh -Y -x -q -D 7 -B black -F -Z -z -r /home/pi/Desktop/SlideShow/CMCSlideShow/
 
 sleep 1800
