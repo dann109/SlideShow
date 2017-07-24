@@ -1,6 +1,6 @@
 #!/bin/bash
 
-git stash save --keep-index
+git stash save
 
 git pull
 
