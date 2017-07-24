@@ -8,4 +8,4 @@ feh -Y -x -q -D 7 -B black -F -Z -z -r /home/pi/Desktop/SlideShow/CMCSlideShow/
 
 sleep 1800
 
-do xsendkeys Shift_L
+xdotool click 1
