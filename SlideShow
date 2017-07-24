@@ -1,5 +1,6 @@
 #!/bin/bash
 
+git checkout HEAD^ /home/pi/SlideShow/CMCSlideShow/overwrite
 git pull
 
 sleep 5
