@@ -1,7 +1,10 @@
 #!/bin/bash
 
-git checkout HEAD^ /home/pi/SlideShow/CMCSlideShow/overwrite
+git stash save --keep-index
+
 git pull
+
+git stash drop
 
 sleep 5
 
