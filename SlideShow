@@ -1,3 +1,9 @@
 #!/bin/bash
 
+git pull
+
+sleep 5
+
 feh -Y -x -q -D 7 -B black -F -Z -z -r /home/pi/Desktop/CMCSlideShow/
+
+sleep 1800
