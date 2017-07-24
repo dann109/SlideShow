@@ -1,5 +1,7 @@
 #!/bin/bash
 
+while true;do
+
 git stash save
 
 git pull
@@ -12,4 +14,8 @@ feh -Y -x -q -D 7 -B black -F -Z -z -r /home/pi/SlideShow/CMCSlideShow/
 
 sleep 1800
 
-xdotool click 1
+xdotool click q
+
+chmod +x SlideShow
+
+done
